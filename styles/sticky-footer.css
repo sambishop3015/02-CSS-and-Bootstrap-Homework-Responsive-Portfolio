@@ -28,10 +28,39 @@ body {
 }
 
 img {
-  max-height: 600px;
+  /* max-height: 600px; */
+  max-width: 100%;
   border: darkgrey;
   border-style: solid;
   border-width: 1px;
   box-shadow: 5px 2px 2px rgb(146, 146, 146);
+}
+
+ul {
+  position: absolute;
+}
+
+@media screen and (max-width: 575px) {
+ 
   
+  .main {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  div.col-sm-6 {
+    padding-right: 0;
+  }
+  img {
+    padding: 0;
+    max-width: 100%;
+    border: none;
+    border-style: none;
+    border-width: 0px;
+    box-shadow: none;
+    }
+  ul {
+    position: static;
+  }
+
 }
