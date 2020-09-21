@@ -28,7 +28,7 @@ body {
 }
 
 img {
-  /* max-height: 600px; */
+  max-height: 600px;
   max-width: 100%;
   border: darkgrey;
   border-style: solid;
@@ -40,27 +40,40 @@ ul {
   position: absolute;
 }
 
+.linkedin {
+  max-height: 20px;
+  text-align: center;
+}
+
+.github {
+  max-height: 25px;
+  text-align: center;
+}
+
 @media screen and (max-width: 575px) {
  
-  
-  .main {
-    padding: 0;
-    margin: 0;
-    border: 0;
-  }
-  div.col-sm-6 {
-    padding-right: 0;
-  }
-  img {
-    padding: 0;
-    max-width: 100%;
-    border: none;
-    border-style: none;
-    border-width: 0px;
-    box-shadow: none;
-    }
-  ul {
-    position: static;
-  }
+.main {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+div.col-sm-6 {
+  padding-right: 0;
+}
+
+img {
+  max-height: none;
+  padding: 0;
+  max-width: 100%;
+  border: none;
+  border-style: none;
+  border-width: 0px;
+  box-shadow: none;
+}
+
+ul {
+  position: static;
+}
 
 }
