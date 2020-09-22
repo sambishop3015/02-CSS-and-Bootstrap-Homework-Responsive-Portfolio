@@ -1,10 +1,27 @@
-body {
+/* body {
   background-color: rgb(185, 185, 185);
-} 
+}  */
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(25%);
+}
+
+nav {
+  font-weight: bolder;
+}
 
 /* ###Footer### */
-html {
-  position: relative;
+html body{
+  height: 100%;
+  margin: 0;
+}
+
+.content {
   min-height: 100%;
 }
 
@@ -13,7 +30,21 @@ body {
   margin-bottom: 60px;
 }
 
-.footer {
+span {
+  font-weight: bolder;
+  color: rgb(179, 0, 0);
+}
+
+h1 {
+  color: white;
+  font-weight: bolder;
+}
+
+p {
+  color: white;
+}
+
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -38,6 +69,10 @@ img {
 
 ul {
   position: absolute;
+}
+
+.container {
+  text-align: center;
 }
 
 .linkedin {
