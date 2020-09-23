@@ -1,7 +1,4 @@
-/* body {
-  background-color: rgb(185, 185, 185);
-}  */
-
+/* Background Video Properties */
 #myVideo {
   position: fixed;
   right: 0;
@@ -11,99 +8,114 @@
   filter: brightness(20%);
 }
 
+/*Brand/Name Properties*/
 #brand {
   color: white;
   font-weight: bolder;
 }
-#link-text {
-  color: white;
-}
 
-/* ###Footer### */
-html body{
-  height: 100%;
-  margin: 0;
-}
-
-.content {
-  min-height: 100%;
-}
-
-body {
-  /*Margin bottom by footer height*/
-  margin-bottom: 60px;
-}
-
+/* Brand/Name "BISHOP" Properties */
 span {
   font-weight: bolder;
   color: rgb(179, 0, 0);
 }
 
+/* H1 Properties */
 h1 {
   color: white;
   font-weight: bolder;
 }
 
+/* P Properties */
 p {
   color: white;
 }
 
+/* Footer Properties */
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /*Set the fixed height of the footer here*/
   height: 60px;
-
 }
+
+/* Main Content on Home Page */
 .main {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 15%;
   margin-right: 15%;
 }
 
+/* Headshot on Home Page */
 #headShot {
   max-height: 600px;
   max-width: 100%;
   border-radius: 100%;
 }
 
+/* Hamburger Drop-down List */
 ul {
   position: absolute;
 }
 
+/* All Containers */
 .container {
   text-align: center;
 }
 
+/* Linkedin Buttom */
 .linkedin {
   max-height: 20px;
   text-align: center;
 }
 
+/* Github Buttom */
 .github {
   max-height: 25px;
   text-align: center;
 }
 
+/* Hamburger Drop-down - Active Page Listed Item to Bold */
+.active {
+  font-weight: bolder;
+}
+
+/* Contact Page First Column Height */
+.col-sm-12 {
+  height: 100px;
+}
+
+.card-group {
+  margin-top: 18%;
+}
+
+/* Contact Card */
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contact Card Text */
+.card-text {
+  color: black;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+/* For Viewports 575px and Smaller */
 @media screen and (max-width: 575px) {
  
+/* No Margins */
 .content .main {
   padding: 0;
   margin: 0;
   border: 0;
 }
 
-/* div {
-  padding: 0px;
-}
-
-div.col-sm-5 {
-  padding-right: 0;
-  padding-left: 0;
-}
-*/
-
+/* Headshot Properties */
 #headShot {
   max-height: 500px;
   max-width: 100%;
@@ -113,6 +125,7 @@ div.col-sm-5 {
   margin-right: auto;
 }
 
+/* Hamburger Drop-down List */
 ul {
   position: static;
 }

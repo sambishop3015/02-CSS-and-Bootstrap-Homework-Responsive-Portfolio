@@ -14,18 +14,23 @@
     </head>
 
     <body>
+
+        <!--Main Content-->
         <div class="content">
+            
             <!--Background Video-->
             <video autoplay muted loop id="myVideo">
                 <source src="video/Pexels Videos 2516160.mp4" type="video/mp4">
             </video>
 
+            <!--Header Section-->
             <header>
-            <!--Navbar-->
-            <nav class="navbar navbar-light navbar-1 white">
+
+              <!--Navbar-->
+              <nav class="navbar navbar-dark red lighten-1 mb-4">
 
                 <!-- Navbar brand -->
-                <a class="navbar-brand" href="index.html">SAM <span>BISHOP</span></a>
+                <a class="navbar-brand" id="brand" href="index.html">SAM <span>BISHOP</span></a>
             
                 <!-- Collapse button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
@@ -34,39 +39,88 @@
                 <!-- Collapsible content -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent15">
             
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                    <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">CONTACT</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
-                    </li>
-                </ul>
+                  <!-- Links -->
+                  <ul class="navbar-nav mr-auto">
+                      <li class="nav-item">
+                      <a class="nav-link" id="navLinks" href="index.html">HOME<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item active">
+                      <a class="nav-link" id="navLinks" href="contact.html">CONTACT</a>
+                      </li>
+                      <li class="nav-item">
+                      <a class="nav-link" id="navLinks" href="portfolio.html">PORTFOLIO</a>
+                      </li>
+                  </ul>
                 </div>
-            </nav>
+              </nav>
             </header>
+            
+            <!--Grid Container-->
+            <div class="container">
+              
+              <!--Row One-->
+              <div class="row">
+                
+                <!--R1 C1-->
+                <div class="col-sm-12"></div>
+              </div>
+              
+              <!--Row Two-->
+              <div class="row">
+                
+                <!--R2 C1-->
+                <div class="col-sm-4"></div>
+                
+                <!--R2 C2-->
+                <div class="col-sm-4">
+                  <div class="card" style="width: 18rem;">
+                    <img src="images/samBust.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Contact Me</h5>
+                      <p class="card-text">XXX-XXX-XXXX</p>
+                      <p class="card-text">sambishop@yamail.com</p>
+                      </p>
+                      <!-- <a href="#" class="btn btn-primary">Email Me</a> -->
+                    </div>
+                  </div>  
+                </div>
+
+                <!--R2 C3-->
+                <div class="col-sm-4"></div>
+              
+              <!--Row Three-->
+              <div class="row"></div>
+            </div>
+            
         </div>
+              
         
         <!--Sticky Footer-->
         <footer class="footer mt-auto py-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <span class="text-muted">Built By Sam Bishop</span>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="https://www.linkedin.com/in/samuel-bishop-12550b123/"><img class="linkedin" src="images/LI-Logo.png" alt="Linkedin Profile"></a>
-                    </div>
-                    <div class="col-sm-3">
-                        <a href="https://github.com/sambishop3015"><img class="github" src="images/GitHub_Logo.png" alt="Linkedin Profile"></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
+            
+          <!--Container-->
+          <div class="container">
+              
+              <!--Row One-->
+              <div class="row">
+                  
+                  <!--Column One-->
+                  <div class="col-sm-6">
+                      <span class="text-muted">Built By Sam Bishop</span>
+                  </div>
+
+                  <!--Column Two-->
+                  <div class="col-sm-3">
+                      <a href="https://www.linkedin.com/in/samuel-bishop-12550b123/"><img class="linkedin" src="images/LI-Logo.png" alt="Linkedin Profile"></a>
+                  </div>
+
+                  <!--Column Three-->
+                  <div class="col-sm-3">
+                      <a href="https://github.com/sambishop3015"><img class="github" src="images/GitHub_Logo_White.png" alt="Linkedin Profile"></a>
+                  </div>
+              </div>
+          </div>
+      </footer>
 
         <!--Script Tags-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
