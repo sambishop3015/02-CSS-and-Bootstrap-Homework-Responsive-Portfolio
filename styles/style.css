@@ -1,11 +1,94 @@
-/* Background Video Properties */
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+video {
+  top: 50%;
+  left: 50%;
   min-width: 100%;
   min-height: 100%;
-  filter: brightness(20%);
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  filter:brightness(50%);
+  /* transition: 1s opacity(.5); */
+}
+
+.video-container {
+  height: 100%;
+}
+
+.video-parallax {
+  -webkit-transition-position: fixed;
+  position: fixed;
+}
+
+.video-container, .pimg1, .pimg2 {
+  position: relative;
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url('../images/pimg1.jpg');
+  min-height: 400px;
+}
+
+.pimg2 {
+  background-image: url('../images/pimg2.jpg');
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: rgb(185, 185, 185);
+}
+
+.section-dark {
+  background-color: rgb(59, 59, 59);
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+span.img-span {
+  border: 2px solid rgb(211, 210, 210);
+  padding: 15px;
+  background:rgba(255,255,255,0.5);
+}
+
+
+
+
+.navbar {
+  /* background: opacity(.5); */
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  /* background: opacity(.5); */
+  background-color:rgba(0, 0, 0, 0.5);
 }
 
 /*Brand/Name Properties*/
@@ -15,7 +98,7 @@
 }
 
 /* Brand/Name "BISHOP" Properties */
-span {
+.bishop {
   font-weight: bolder;
   color: rgb(179, 0, 0);
 }
@@ -55,7 +138,7 @@ footer {
 
 /* Hamburger Drop-down List */
 ul {
-  position: absolute;
+  /* position: absolute; */
 }
 
 /* All Containers */
