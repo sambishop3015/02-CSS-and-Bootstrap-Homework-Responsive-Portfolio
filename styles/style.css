@@ -126,6 +126,10 @@ footer {
   height: 60px;
 }
 
+/* #footer-col {
+  position:absolute;
+} */
+
 /* Main Content on Home Page */
 .main {
   margin-top: 5%;
@@ -153,13 +157,18 @@ ul {
 /* Linkedin Buttom */
 .linkedin {
   max-height: 20px;
-  text-align: center;
 }
+
+/* #linkedin {
+  text-align: center;
+  position: absolute;
+} */
 
 /* Github Buttom */
 .github {
   max-height: 25px;
-  text-align: center;
+  /* text-align: center; */
+  /* position: absolute; */
 }
 
 /* Hamburger Drop-down - Active Page Listed Item to Bold */
