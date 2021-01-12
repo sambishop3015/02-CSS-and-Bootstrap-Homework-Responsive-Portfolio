@@ -261,3 +261,7 @@ ul {
 .vpHeight {
   height: 100vh;
 }
+
+#portfolioRow {
+  align-items:center;
+}
