@@ -74,7 +74,8 @@ video {
 }
 
 .card {
-  max-height: 50px;
+  vertical-align: middle;
+  box-shadow: 10px 10px 5px 0px rgba(117,99,99,0.75);
 }
 
 .ptext {
@@ -136,9 +137,10 @@ footer {
   height: 60px;
 }
 
-/* #footer-col {
-  position:absolute;
-} */
+.whiteFont {
+  color: white;
+  font-weight: bold;
+}
 
 /* Main Content on Home Page */
 .main {
@@ -245,3 +247,6 @@ ul {
   width: 100%;
 }
 
+#resumeBtn {
+  font-weight: bold;
+}
