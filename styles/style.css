@@ -1,8 +1,9 @@
-/* .navbar {
-  margin-top:0px;
-} */
+#navLinks {
+  text-align: right;
+}
 
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -18,7 +19,7 @@ video {
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
-  filter:brightness(50%);
+  filter: brightness(50%);
   /* transition: 1s opacity(.5); */
 }
 
@@ -31,23 +32,30 @@ video {
   position: fixed;
 }
 
-.video-container, .pimg1, .pimg2 {
+.video-container,
+.pimg1,
+.pimg2,
+.pimg3 {
   position: relative;
   opacity: 1;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
 }
 
 .pimg1 {
-  background-image: url('../images/pimg1.jpg');
+  background-image: url("../images/samNaomi.jpg");
   min-height: 400px;
 }
 
 .pimg2 {
-  background-image: url('../images/pimg2.jpg');
+  background-image: url("../images/pimg1.jpg");
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("../images/pimg2.jpg");
   min-height: 400px;
 }
 
@@ -58,10 +66,15 @@ video {
 
 .section-light {
   background-color: rgb(185, 185, 185);
+  min-height: 300px
 }
 
 .section-dark {
   background-color: rgb(59, 59, 59);
+}
+
+.card {
+  max-height: 50px;
 }
 
 .ptext {
@@ -79,20 +92,17 @@ video {
 span.img-span {
   border: 2px solid rgb(211, 210, 210);
   padding: 15px;
-  background:rgba(255,255,255,0.5);
+  background: rgba(255, 255, 255, 0.5);
 }
-
-
-
 
 .navbar {
   /* background: opacity(.5); */
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .footer {
   /* background: opacity(.5); */
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /*Brand/Name Properties*/
@@ -114,7 +124,7 @@ h1 {
 }
 
 /* P Properties */
-p {
+p, h2 {
   color: white;
 }
 
@@ -203,27 +213,35 @@ ul {
 
 /* For Viewports 575px and Smaller */
 @media screen and (max-width: 575px) {
- 
-/* No Margins */
-.content .main {
-  padding: 0;
-  margin: 0;
-  border: 0;
+
+  /* No Margins */
+  .content .main {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  /* Headshot Properties */
+  #headShot {
+    max-height: 500px;
+    max-width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Hamburger Drop-down List */
+  ul {
+    position: static;
+  }
 }
 
-/* Headshot Properties */
-#headShot {
-  max-height: 500px;
-  max-width: 100%;
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+/* Test Dev Area */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-/* Hamburger Drop-down List */
-ul {
-  position: static;
-}
-
-}
