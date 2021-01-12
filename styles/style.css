@@ -54,12 +54,12 @@ video {
 }
 
 .pimg2 {
-  background-image: url("../images/pimg1.jpg");
+  background-image: url("../images/pimg2.jpg");
   min-height: 70vh;
 }
 
 .pimg3 {
-  background-image: url("../images/pimg2.jpg");
+  background-image: url("../images/pimg1.jpg");
   min-height: 70vh;
 }
 
@@ -246,10 +246,11 @@ ul {
 
 /* Test Dev Area */
 
-.sticky {
+.stickyHeader {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 #resumeBtn {
