@@ -12,13 +12,13 @@ html {
 video {
   top: 50%;
   left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
+  /* min-width: 100%;
+  min-height: 100%; */
+  /* width: auto;
+  height: auto; */
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
+  /* background-size: cover; */
   filter: brightness(50%);
   /* transition: 1s opacity(.5); */
 }
@@ -44,24 +44,29 @@ video {
   background-attachment: fixed;
 }
 
+#videoTxt {
+  margin: 200px;
+}
+
 .pimg1 {
   background-image: url("../images/samNaomi.jpg");
-  min-height: 400px;
+  min-height: 70vh;
 }
 
 .pimg2 {
   background-image: url("../images/pimg1.jpg");
-  min-height: 400px;
+  min-height: 70vh;
 }
 
 .pimg3 {
   background-image: url("../images/pimg2.jpg");
-  min-height: 400px;
+  min-height: 70vh;
 }
 
 .section {
   text-align: center;
   padding: 50px 80px;
+  height: 30vh;
 }
 
 .section-light {
@@ -249,4 +254,8 @@ ul {
 
 #resumeBtn {
   font-weight: bold;
+}
+
+.vpHeight {
+  height: 100vh;
 }

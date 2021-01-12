@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    
+
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sticky-footer/" />
-    
+
     <!--Sticky Footer Style Sheet-->
     <link href="./styles/style.css" rel="stylesheet" />
 </head>
@@ -22,14 +22,13 @@
         <nav class="navbar navbar-dark red lighten-1 mb-4 sticky">
             <!-- Navbar brand -->
             <a class="navbar-brand" id="brand" href="index.html">SAM <span class="bishop">BISHOP</span></a>
-    
+
             <!-- Collapse button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15"
-                aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+                aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-    
+
             <!-- Collapsible content -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent15">
                 <!-- Links -->
@@ -48,9 +47,8 @@
             </div>
         </nav>
     </header>
+
     <div class="video-container">
-
-
         <!-- <div class="video-container"></div> -->
 
         <!-- Test Button For Page Scroll Effect. NOT WORKING!!! -->
@@ -61,8 +59,9 @@
         <video autoplay muted loop class="video-parallax">
             <source src="video/Pexels Videos 2516160.mp4" type="video/mp4" />
         </video>
+
         <div class="ptext">
-            <span class="whiteFont">
+            <span class="whiteFont" id="videoTxt">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione,
                 officia quo totam debitis consequatur laboriosam ducimus magnam
                 deleniti repellendus cumque!
@@ -96,22 +95,24 @@
         </footer>
     </div>
 
-    <div class="pimg1">
-        <div class="ptext">
-            <span class="img-span"> Hello World! </span>
+    <section class="vpHeight">
+        <div class="pimg1">
+            <div class="ptext">
+                <span class="img-span"> Hello World! </span>
+            </div>
         </div>
-    </div>
 
-    <section class="section section-dark sectionOne">
-        <h2>About Me</h2>
-        <p>
-            Hello! My name is Sam Bishop and I am an aspiring full stack web application developer,
-            currently living in West Michigan. I’m pursuing a full stack certificate with Michigan State
-            University and am enjoying the fast pace course that I’m enrolled in. <br><br> In my free
-            time, I am enjoying designing and building microcontrollers for fun projects like automated
-            chicken coop doors and environment controllers. I’m excited about gaining the knowledge
-            necessary to propel me into the web developing workforce.
-        </p>
+        <section class="section section-dark sectionOne">
+            <h2>About Me</h2>
+            <p>
+                Hello! My name is Sam Bishop and I am an aspiring full stack web application developer,
+                currently living in West Michigan. I’m pursuing a full stack certificate with Michigan State
+                University and am enjoying the fast pace course that I’m enrolled in. <br><br> In my free
+                time, I am enjoying designing and building microcontrollers for fun projects like automated
+                chicken coop doors and environment controllers. I’m excited about gaining the knowledge
+                necessary to propel me into the web developing workforce.
+            </p>
+        </section>
     </section>
 
     <!-- <div class="pimg1">
@@ -120,31 +121,36 @@
         </div>
     </div> -->
 
-    <div class="pimg2">
-        <div class="ptext">
-            <span class="img-span"> Portfolio </span>
-        </div>
-    </div>
-
-    <section class="section section-light">
-
-        <div class="col-sm-12">
-            <div class="row">
-
-                <div class="card" style="width: 18rem;">
-                    <a href="https://github.com/sambishop3015/11-Note-Taker"><img src="./images/noteTaker.PNG" class="card-img-top" alt="..."></a>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <a href="https://github.com/sambishop3015/05-Third-Party-APIs-Work-Day-Scheduler"><img src="./images/scheduler.png" class="card-img-top" alt="..."></a>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <a href="https://github.com/sambishop3015/06-Server-Side-APIs-Weather-Dashboard"><img src="./images/weatherApp.png" class="card-img-top" alt="..."></a>
-                </div>
-
+    <section class="vpHeight">
+        <div class="pimg2">
+            <div class="ptext">
+                <span class="img-span"> Portfolio </span>
             </div>
         </div>
+
+        <section class="section section-light">
+
+            <div class="col-sm-12">
+                <div class="row">
+
+                    <div class="card" style="width: 18rem;">
+                        <a href="https://github.com/sambishop3015/11-Note-Taker"><img src="./images/noteTaker.PNG"
+                                class="card-img-top" alt="..."></a>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <a href="https://github.com/sambishop3015/05-Third-Party-APIs-Work-Day-Scheduler"><img
+                                src="./images/scheduler.png" class="card-img-top" alt="..."></a>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <a href="https://github.com/sambishop3015/06-Server-Side-APIs-Weather-Dashboard"><img
+                                src="./images/weatherApp.png" class="card-img-top" alt="..."></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </section>
 
     <!-- <div class="pimg2">
@@ -153,52 +159,54 @@
         </div>
     </div> -->
 
-    <div class="pimg3">
-        <div class="ptext">
-            <span class="img-span"> Resume </span>
-        </div>
-    </div>
-
-    <section class="section section-dark">
-        <h2>Resume</h2>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus quos
-            expedita omnis. Impedit cumque, commodi facere rem, beatae consequuntur
-            aliquid nam quibusdam quidem animi harum, ex blanditiis doloremque at
-            necessitatibus! Tempore libero quod harum esse, adipisci sapiente in
-            maxime dolorem quasi totam repellendus, dicta accusantium, nisi maiores
-            quo debitis aliquid a hic neque recusandae praesentium impedit culpa
-            vitae? Dolorum quasi laboriosam illum repellat assumenda distinctio
-            beatae quis cumque. Accusamus aliquid explicabo impedit culpa totam
-            tenetur. Ullam nemo iusto voluptatem? Incidunt, ipsum, perspiciatis
-            expedita at placeat iste debitis blanditiis quasi rem reiciendis
-            provident, vel in impedit exercitationem excepturi nulla eum soluta! Download Resume <a
-                href="./images/Resume.docx" download>
-                <!-- <img src="./images/samNaomi.jpg" alt="W3Schools"> -->
-                <span id="resumeBtn">HERE!</span></a>
-        </p>
-        <br>
-        <div class="container">
-            <!--Row One-->
-            <div class="row">
-                <!--Column One-->
-                <div class="col-sm-4">
-                    <p class="whiteFont">Built By: Sam Bishop</p>
-                </div>
-
-                <!--Column Two-->
-                <div class="col-sm-4">
-                    <a href="https://www.linkedin.com/in/samuel-bishop-12550b123/"><img id="linkedin" class="linkedin"
-                            src="images/LI-Logo.png" alt="Linkedin Profile" /></a>
-                </div>
-
-                <!--Column Three-->
-                <div class="col-sm-4">
-                    <a href="https://github.com/sambishop3015"><img class="github" src="images/GitHub_Logo_White.png"
-                            alt="Linkedin Profile" /></a>
-                </div>
+    <section class="vpHeight">
+        <div class="pimg3">
+            <div class="ptext">
+                <span class="img-span"> Resume </span>
             </div>
         </div>
+
+        <section class="section section-dark">
+            <h2>Resume</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus quos
+                expedita omnis. Impedit cumque, commodi facere rem, beatae consequuntur
+                aliquid nam quibusdam quidem animi harum, ex blanditiis doloremque at
+                necessitatibus! Tempore libero quod harum esse, adipisci sapiente in
+                maxime dolorem quasi totam repellendus, dicta accusantium, nisi maiores
+                quo debitis aliquid a hic neque recusandae praesentium impedit culpa
+                vitae? Dolorum quasi laboriosam illum repellat assumenda distinctio
+                beatae quis cumque. Accusamus aliquid explicabo impedit culpa totam
+                tenetur. Ullam nemo iusto voluptatem? Incidunt, ipsum, perspiciatis
+                expedita at placeat iste debitis blanditiis quasi rem reiciendis
+                provident, vel in impedit exercitationem excepturi nulla eum soluta! Download Resume <a
+                    href="./images/Resume.docx" download>
+                    <!-- <img src="./images/samNaomi.jpg" alt="W3Schools"> -->
+                    <span id="resumeBtn">HERE!</span></a>
+            </p>
+            <br>
+            <div class="container">
+                <!--Row One-->
+                <div class="row">
+                    <!--Column One-->
+                    <div class="col-sm-4">
+                        <p class="whiteFont">Built By: Sam Bishop</p>
+                    </div>
+
+                    <!--Column Two-->
+                    <div class="col-sm-4">
+                        <a href="https://www.linkedin.com/in/samuel-bishop-12550b123/"><img id="linkedin"
+                                class="linkedin" src="images/LI-Logo.png" alt="Linkedin Profile" /></a>
+                    </div>
+
+                    <!--Column Three-->
+                    <div class="col-sm-4">
+                        <a href="https://github.com/sambishop3015"><img class="github"
+                                src="images/GitHub_Logo_White.png" alt="Linkedin Profile" /></a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </section>
 
     <!-- <div class="pimg3">
