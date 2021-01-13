@@ -45,8 +45,8 @@ video {
   background-attachment: fixed;
 }
 
-#videoTxt {
-  margin: 200px;
+#welcomeTxt {
+  margin-bottom: 50%;
 }
 
 .pimg1 {
@@ -121,7 +121,8 @@ span.img-span {
 /* Brand/Name "BISHOP" Properties */
 .bishop {
   font-weight: bolder;
-  color: rgb(179, 0, 0);
+  /* color: rgb(179, 0, 0); */
+  color: #0077ff;
 }
 
 /* H1 Properties */
